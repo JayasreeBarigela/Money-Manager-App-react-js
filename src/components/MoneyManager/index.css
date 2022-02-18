@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 10px;
+  font-family: 'Roboto';
+}
+.welcome-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding-left: 40px;
+  padding-top: 40px;
+  width: 80%;
+}
+.greet-text {
+  color: #475569;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  color: #475569;
+  font-size: 20px;
+}
+.app-title {
+  color: #0b69ff;
+}
+
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.input-box {
+  height: 40px;
+  width: 100px;
+}
+
+.form-container {
+  border: #475569;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 20px;
+  padding: 15px;
+}
+.form-history-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.history-card-container {
+  display: flex;
+  border-width: thin;
+  border-style: solid;
+  border-color: #475569;
+  color: #475569;
+}
+.text {
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.history-card-container {
+  display: flex;
+  border-top-width: 0px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #475569;
+  color: #475569;
+}
+.text {
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
